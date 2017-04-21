@@ -8,9 +8,9 @@ Fundamentos de Programación
 
 Parcial 3
 
-Nombre: (Edite este archivo llenando este dato)
+Nombre: (Natalia Montoya Sánchez)
 
-ID: (Edite este archivo llenando este dato)
+ID: (324361)
 
 Fecha: Abril 21 de 2017
 
