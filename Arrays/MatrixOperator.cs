@@ -42,10 +42,14 @@ namespace Parcial3_Base
         /// <returns>La matriz suma</returns>
         public int[,] AddMatrix(int[,] matrixA, int[,] matrixB)
         {
-            int[,] result = null;
+            //int[,] result = null;
+
+            int[,] result = new int[matrixA.GetLength(0), matrixB.GetLength(1)];
 
             if (result != null)
             {
+                for (int i = 0, i< matrixA.GetLength(0), i++)
+
                 result.PrintMatrixValues();
             }
 
@@ -61,10 +65,24 @@ namespace Parcial3_Base
         /// <returns>La matriz producto por escalar</returns>
         public int[,] MultiplyMatrixByScalar(int[,] matrix, int scalar)
         {
-            int[,] result = null;
+            //int[,] result = null;
+
+            int[,] result = new int[matrix.GetLength(0), scalar];
 
             if (result != null)
+
             {
+              for (int i = 0; i < matrix.GetLength(0); i++);
+                    {
+                        for (int j = 0; j < matrix.GetLength(1); j++);
+                        {
+                     
+                           result[i,j] = (matrix(i) * scalar);
+
+                        }
+                    }
+                }
+
                 result.PrintMatrixValues();
             }
 
@@ -80,11 +98,30 @@ namespace Parcial3_Base
         /// <returns>La matriz producto</returns>
         public int[,] MultiplyMatrices(int[,] matrixA, int[,] matrixB)
         {
-            int[,] result = null;
+            //int[,] result = null;
+
+            int[,] result = new int[matrixA.GetLength(0), matrixB.GetLength(1)];
 
             if (result != null)
+        
             {
-                result.PrintMatrixValues();
+                if (matrixA.GetLength(0) == matrixB.GetLength(1));
+                {
+                    for (int i = 0; i < matrixA.GetLength(0); i++);
+                    {
+                        for (int j = 0; j < matrixB.GetLength(1); j++);
+                        {
+                            for (int k = 0; k < matrixA.GetLength(1); k++);
+
+                            result[i,j] = (matrixA(i) * matrixB(j));
+
+                        }
+                    }
+                }     
+                
+                           
+                        
+                        result.PrintMatrixValues();
             }
 
             return result;
