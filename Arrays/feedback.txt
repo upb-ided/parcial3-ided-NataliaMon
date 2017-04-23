@@ -1,0 +1,23 @@
+Punto 1 (AddMatrix)
+* Falta un ciclo en GetLength(1) de cualquiera de las matrices
+* Falta validar que las matrices sean operables (ambas matrices deben tener la misma dimensión)
+* Falta la instrucción que sume los elementos de las matrices y asigne el resultado a la matriz 'result'
+
+Total: 0.3 / 1.0
+
+Punto 2 (MultiplyMatrixByScalar)
+* Es incorrecta la asignación de la dimensión de la matriz 'result'. 'scalar' no interviene en la misma.
+* Está incorrecta la instrucción de acceso a la posición de la matriz en la instrucción que aplica la operación. Aunque es correcto el acercamiento, hay problemas con el uso de llaves y paréntesis, aparte del acceso a la posición de la matriz con una sola coordenada (los elementos de una matriz tienen dos instrucciones).
+
+Total: 0.8 / 1.0
+
+Punto 3(MultiplyMatrices)
+* El acercamiento es correcto. Incorrecto el acceso a las posiciones de las matrices.
+Total: 1.6 / 2.0
+
+Punto 4 (MixMatrix)
+* No presenta solución
+
+Total: 0.0 / 1.0
+
+Total evaluación: 2.7 / 5.0
